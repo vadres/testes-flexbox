@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 15px;
+    color: #444;
+}
+
+.content {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex-direction: column;
+}
+.row {
+    flex-direction: row;
+}
+
+.column-reverse{
+    flex-direction: column-reverse;
+}
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.align-flex-start{
+    align-items: flex-start;
+}
+
+.item {
+    flex: 1;
+    background-color: #5555ff;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
